@@ -59,13 +59,13 @@
     <Compile Include="HttpMethodAdapters\HttpMethodAdapterFactory_MultipartPOSTHttpMethodAdapter.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Execoes\" />
+    <Folder Include="HttpMethodAdapters\" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\MNIX.Webservices\MNIX.Webservices.csproj">
       <Project>{2F259A5E-5154-499B-8503-7918378930D7}</Project>
       <Name>MNIX.Webservices</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Execoes\" />
-    <Folder Include="HttpMethodAdapters\" />
   </ItemGroup>
 </Project>
